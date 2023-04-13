@@ -19,27 +19,27 @@ public class Bank {
     }
 
     /**
-     * Prints the balance of the member's account.
+     * Returns the balance of the member's account.
      */
-    public void printBalance()
+    public double getBalance()
     {
-        System.out.println(balanceCad);
+        return balanceCad;
     }
 
     /**
-     * Prints the member's last name.
+     * Returns the member's last name.
      */
-    public void printMemberLastName()
+    public String getMemberLastName()
     {
-        System.out.println(memberLastName);
+        return memberLastName;
     }
 
     /**
-     * Prints the member's account number.
+     * Returns the member's account number.
      */
-    public void printAccountNumber()
+    public String getAccountNumber()
     {
-        System.out.println(accountNumber);
+        return accountNumber;
     }
 
     /**
@@ -80,5 +80,4 @@ public class Bank {
         this.withdraw(amount);
         account2.deposit(amount);
     }
-
 }
