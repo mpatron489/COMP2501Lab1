@@ -27,10 +27,8 @@ public class Main {
         b1.transfer(50.00, b2 );
         b1.printBalance();
         b2.printBalance();
-
     }
-
-    }
+}
 
 
 
